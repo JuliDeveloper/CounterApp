@@ -56,15 +56,39 @@
 		253B0FDB28C112000027943F /* CounterApp */ = {
 			isa = PBXGroup;
 			children = (
-				253B0FDC28C112000027943F /* AppDelegate.swift */,
-				253B0FDE28C112000027943F /* SceneDelegate.swift */,
-				253B0FE028C112000027943F /* ViewController.swift */,
-				253B0FE228C112000027943F /* Main.storyboard */,
-				253B0FE528C112000027943F /* Assets.xcassets */,
-				253B0FE728C112000027943F /* LaunchScreen.storyboard */,
-				253B0FEA28C112000027943F /* Info.plist */,
+				253B0FF028C116580027943F /* Presentation */,
+				253B0FF128C116800027943F /* Resources */,
+				253B0FF228C116AA0027943F /* App */,
 			);
 			path = CounterApp;
+			sourceTree = "<group>";
+		};
+		253B0FF028C116580027943F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				253B0FE028C112000027943F /* ViewController.swift */,
+				253B0FE228C112000027943F /* Main.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		253B0FF128C116800027943F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				253B0FE728C112000027943F /* LaunchScreen.storyboard */,
+				253B0FE528C112000027943F /* Assets.xcassets */,
+				253B0FEA28C112000027943F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		253B0FF228C116AA0027943F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				253B0FDE28C112000027943F /* SceneDelegate.swift */,
+				253B0FDC28C112000027943F /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DWMGJ928Y5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CounterApp/Info.plist;
+				INFOPLIST_FILE = CounterApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DWMGJ928Y5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CounterApp/Info.plist;
+				INFOPLIST_FILE = CounterApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
