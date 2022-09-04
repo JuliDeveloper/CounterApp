@@ -9,18 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var counterLable: UILabel!
+    @IBOutlet weak private var counterLabel: UILabel!
     
     private var counter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        counterLable.text = "Значение счётчика: \(counter)"
+        counterLabel.text = "Значение счётчика: \(counter)"
     }
 
-    @IBAction func buttonDidTap() {
+    @IBAction private func buttonDidTap() {
         counter += 1
-        counterLable.text = "Значение счётчика: \(counter)"
+        counterLabel.text = "Значение счётчика: \(counter)"
     }
 }
 

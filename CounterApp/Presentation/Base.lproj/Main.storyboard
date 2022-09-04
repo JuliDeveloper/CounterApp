@@ -45,7 +45,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="counterLable" destination="1iX-Cu-ecq" id="lDu-Rb-Rd7"/>
+                        <outlet property="counterLabel" destination="1iX-Cu-ecq" id="mgC-JC-6he"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
